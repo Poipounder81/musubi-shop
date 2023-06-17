@@ -1,0 +1,17 @@
+// scss for different screen Sizes
+
+// small mobile devices
+@media screen and (max-width: 768px) {
+    #color-card-container {
+        height: 100vh;
+        flex-direction: column;
+    }
+    .colorCard {
+        display: flex;
+    }
+}
+
+// tablet devices
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}

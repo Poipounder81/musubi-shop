@@ -1,0 +1,52 @@
+// scss for setting up the huemint cards based on the color provided
+@mixin colorCard() {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px gray;
+    transition: all 0.5s;
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Color is the top part of the card that will be visible when the card is down. We want this to be the color provided */
+    .color {
+        cursor: pointer;
+    }
+
+    // The part of the card under the color
+    .color-card-content {
+        height: 100%;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    /* This is the top part of the button. This is what the user will see before the user clicks in */
+    .button-top {
+        height: 100%;
+        color: white;
+        background-color: $card-btn-top;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        cursor: pointer;
+        user-select: none;    
+    }
+
+    /* This is the bottom part of the button. When the user clicks in the button, this will show behind the top part. It will be colored the same as the color on top */
+    .button-bottom {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5% 0;
+        border-radius: 16px;
+    }
+
+    .lock-bottom {
+        background-color: #c64a53;
+    }
+}

@@ -1,0 +1,68 @@
+<!-- component for the blog post layout -->
+<template>
+    <b-card :key="post.id" class="background_color1 textLeft">
+        <b-row>
+
+            <!-- food blog image -->
+            <b-col cols="3">
+                <b-img :src="post.imgSrc" :alt="post.imgAlt" fluid></b-img>
+            </b-col>
+
+            <!-- food blog title and text -->
+            <b-col cols="9">
+                <h4 class="text_color2">{{ post.title }}</h4>
+                <p class="primary_text_color1">{{ post.text }}</p>
+
+                <!-- read more text lin with pop up alert -->
+                <div class="textRight">
+                    <a href="#" class="text_color4" @click="readMoreAlert()">{{ readMore }}</a>
+                </div>
+            </b-col>
+        </b-row>
+    </b-card>
+</template>
+
+<script>
+import { blogMixin } from "../assets/mixins/blog.js";
+
+export default {
+    mixins: [blogMixin],
+
+    data() {
+        return {
+            readMore: 'Read More >>',
+        }
+    },
+
+    // set up the props and validation for each blog post
+    props: {
+        post: {
+            type: Object,
+            required: true,
+        },
+        id: {
+            type: Number,
+            required: true,
+            default: 0
+        },
+        title: {
+            type: String,
+            required: true,
+            default: "Blog Post"
+        },
+        text: {
+            type: String,
+            required: true,
+            default: "This is a blog post"
+        },
+        imgSrc: {
+            type: String
+        },
+        imgAlt: {
+            type: String,
+            required: true,
+            default: "Description of the image",
+        }
+    }
+}
+</script>
