@@ -13,7 +13,7 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        keywords: 'color palette, color palettes, color pallete, colour pallete, colour, cards, dev, development, website example, website examples, nuxt web application, design, web design, web dev',
+        keywords: 'hawaii, hawaiian, hawaiian snack, hawaiian cuisine, guamanian cuisine, japanese-american cuisine, spam dishes spam, rice, nori, soy sauce, teriyaki, teriyaki chicken, chicken, chicken katsu, katsu, spam musubi, 206 musubi shop, color palette, color palettes, color pallete, colour pallete, colour, cards, dev, development, website example, website examples, nuxt web application, design, web design, web dev',
       }
     ],
     link: [
