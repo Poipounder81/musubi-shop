@@ -1,6 +1,8 @@
 export default {
-  target: 'static',
+  target: 'static', 
   // Global page headers: https://go.nuxtjs.dev/config-head
+
+  // seo - lesson 10 assignment
   head: {
     title: '206 Musubi Shop',
     htmlAttrs: {
@@ -14,19 +16,20 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        keywords: 'hawaii, hawaiian, hawaiian snack, hawaiian cuisine, guamanian cuisine, japanese-american cuisine, spam dishes spam, rice, nori, soy sauce, teriyaki, teriyaki chicken, chicken, chicken katsu, katsu, spam musubi, 206 musubi shop, color palette, color palettes, color pallete, colour pallete, colour, cards, dev, development, website example, website examples, nuxt web application, design, web design, web dev',
+        keywords: 'hawaii, hawaiian, hawaiian snack, hawaiian cuisine, guamanian cuisine, japanese-american cuisine, spam dishes spam, rice, nori, soy sauce, teriyaki, teriyaki musubi, teriyaki chicken, chicken, chicken katsu, katsu, spam musubi, 206 musubi shop, rice balls, onigiri, japanese snacks, nori wraps, seaweed snacks, japanese street food, rice delicacies, musubi fillings, musubi variations, musubi flavors, musubi menu, musubi catering, japanese convenience food, asian fusion snacks, rice treats, musubi restaurant, musubi takeaway',
       }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
   },
+
   fontawesome: {
     icons:{
      solid:true,
      brands:true
     }
-   },
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

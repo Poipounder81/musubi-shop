@@ -81,7 +81,7 @@ export default {
         return {
             title: "The Food Blog",
 
-            // seo - jumping ahead on lesson 10
+            // seo - lesson 10 assignment
             meta: [
                 {
                     hid: 'description',

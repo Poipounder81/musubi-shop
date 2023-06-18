@@ -184,7 +184,7 @@ export default {
         return {
             title: "Online Menu Page",
 
-            // seo - jumping ahead on lesson 10
+            // seo - lesson 10 assignment
             meta: [
                 {
                     hid: 'description',

@@ -75,11 +75,12 @@ export default {
             imgAlt: "a selfie photo of Ryan throwing up the shaka and standing in front of the sunset on the beach"
         }
     },
+
     head() {
         return {
             title: "Personal Page",
 
-            // seo - jumping ahead on lesson 10
+            // seo - lesson 10 assignment
             meta: [
                 {
                     hid: 'description',
@@ -89,6 +90,7 @@ export default {
             ],
         };
     },
+
     mounted() {
 
         // call refresh method to get the appropriate colors on the page

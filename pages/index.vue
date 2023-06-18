@@ -95,11 +95,12 @@ export default {
       }
     };
   },
+
   head() {
     return {
       title: "The 206 Musubi Shop",
 
-      // seo - jumping ahead on lesson 10
+      // seo - lesson 10 assignment
       meta: [
         {
           hid: 'description',
@@ -109,6 +110,7 @@ export default {
       ],
     };
   },
+
   mounted() {
 
     // call refresh method to get the appropriate colors on the page
