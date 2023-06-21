@@ -86,7 +86,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'A food blog for the site, that allows users generate and customize the color palette for the site to enhance their experience.'
+                    content: 'A food blog page of a musubi shop business site, that allows users generate and customize the color palette for the site to enhance their experience.'
                 },
             ],
         };

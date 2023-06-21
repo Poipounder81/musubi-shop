@@ -105,7 +105,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'A nuxt web app for a musubi shop business, that allows users generate and customize the color palette for the site to enhance their experience.'
+          content: 'A nuxt web app for a musubi shop business, that allows users to generate and customize the color palette for the site to enhance their experience.'
         },
       ],
     };

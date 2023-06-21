@@ -85,7 +85,7 @@ export default {
                 {
                     hid: 'description',
                     name: 'description',
-                    content: 'the personal page of the site, that allows users generate and customize the color palette for the site to enhance their experience.'
+                    content: 'the personal page of a musubi shop business site, that allows users to generate and customize the color palette for the site to enhance their experience.'
                 },
             ],
         };
