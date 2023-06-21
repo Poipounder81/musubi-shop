@@ -22,10 +22,10 @@ var customConfig = {
 };
 
 // hex color variables held on each card
-var hexes = ['f8f7fa', '8b8c88', '00e8c4', '8e00a9', 'f3d6b5'];
+var hexes = ['f0d5a8', '3e1d09', 'd37a26', 'd6a12c', '9f5a2e'];
 
 // initial color pallete implemented
-var results = ["#f8f7fa", "#8b8c88", "#00e8c4", "#8e00a9", "#f3d6b5"];
+var results = ["#f0d5a8", "#3e1d09", "#d37a26", "#d6a12c", "#9f5a2e"];
 var locked = [false, false, false, false, false];
 
 
