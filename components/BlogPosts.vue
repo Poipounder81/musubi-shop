@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { blogMixin } from "../assets/mixins/blog.js";
+import { blogMixin } from "../mixins/blog.js";
 
 export default {
     mixins: [blogMixin],

@@ -32,8 +32,8 @@
 
 <script>
 import BlogPostPreview from "../components/BlogPosts";
-import { colorMixin } from "../assets/mixins/colors.js";
-import { blogMixin } from "../assets/mixins/blog.js";
+import { colorMixin } from "../mixins/colors.js";
+import { blogMixin } from "../mixins/blog.js";
 
 export default {
     mixins: [colorMixin, blogMixin],

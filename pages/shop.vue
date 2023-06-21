@@ -30,7 +30,7 @@
 
 <script>
 import ShoppingCard from "../components/ShoppingCards";
-import { colorMixin } from "../assets/mixins/colors.js";
+import { colorMixin } from "../mixins/colors.js";
 
 export default {
     mixins: [colorMixin],

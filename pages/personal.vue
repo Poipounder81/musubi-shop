@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import { colorMixin } from "../assets/mixins/colors.js";
+import { colorMixin } from "../mixins/colors.js";
 
 export default {
     mixins: [colorMixin],
@@ -100,7 +100,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../assets/scss/settings.variables';
+@import '../scss/settings.variables';
 
 p {
     color: $textlight

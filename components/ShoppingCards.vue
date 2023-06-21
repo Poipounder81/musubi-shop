@@ -24,8 +24,8 @@
 </template>
   
 <script>
-import { shopMixin } from "../assets/mixins/shop.js";
-import { colorMixin } from "../assets/mixins/colors.js";
+import { shopMixin } from "../mixins/shop.js";
+import { colorMixin } from "../mixins/colors.js";
 
 export default {
     mixins: [shopMixin, colorMixin],
